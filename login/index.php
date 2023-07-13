@@ -34,7 +34,7 @@
             </div>
             <p class="text-xs font-normal ml-4 text-green-950">
                 Nao tem uma conta? 
-                <span class="text-black font-semibold">Clique aqui</span> 
+                <span class="text-black font-semibold"><a href="../signup/"></a></span> 
                 para se cadastrar.
             </p>
             <button type="submit" class="w-[345px] mx-auto text-white font-semibold mt-5 h-[46px] bg-green-950 rounded-[10px] text-center">Entrar</button>
