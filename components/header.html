@@ -1,23 +1,65 @@
 <div class="w-screen">
-    <div class="h-[31px] bg-lime-400 pl-2">
-        <h1 class="text-black text-base font-normal">Mãos lavadas salvam vidas - Lave as mãos!</h1>
+    <div id="header">
+        <div class="h-[31px] bg-lime-400 pl-2">
+            <h1 class="text-black text-base font-normal">Mãos lavadas salvam vidas - Lave as mãos!</h1>
+        </div>
+        <div class="flex justify-between p-4">
+            <h1 class="text-green-950 text-2xl font-bold">MedPlus Online</h1>
+            <span id="menu"><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
     </div>
-    <div class="flex justify-between p-4">
-        <h1 class="text-green-950 text-2xl font-bold">MedPlus Online</h1>
-        <span id="menu"><i class="fa-solid fa-bars fa-2x"></i></span>
-    </div>
-    <nav  class="h-fit w-full bg-red-800">   
-        <div class="flex justify-between border border-black ">
-            <section  class="flex justify-evenly gap-2">
+    <nav  class="h-screen w-full bg-green-300">   
+        <div class="flex justify-between ">
+            <section  class="flex justify-evenly gap-2 ml-2">
                 <span><i class="fa-regular fa-user"></i></span>
             <div class="text-black text-base font-medium">Entrar</div>
             </section>
             <section>
-                <span id="ocultar-menu"> <i class="fa-solid fa-x"></i></span>
+                <span id="ocultar-menu" class="mr-2"> <i class="fa-solid fa-x"></i></span>
             </section>
         </div>
-        <section class="">
-            <h1 class="text-green-950 text-2xl font-semibold">Como Funciona</h1>
+        <section >
+            <a class="text-green-950 text-2xl font-semibold">Como Funciona</a>
+            <a class="text-green-950 text-2xl font-semibold">Agende uma Consulta</a>
+            <a  class="text-green-950 text-2xl font-semibold">Unidades Sanitarias Próximas</a>
+            <a class="text-green-950 text-2xl font-semibold">Acompanhamento Médico </a>
+            <a class="text-green-950 text-2xl font-semibold">Denunciar</a>
+            <a class="text-green-950 text-2xl font-semibold">Dicas de Saude</a>
+            <a class="text-green-950 text-2xl font-semibold">Dúvidas</a>
+            <a class="text-green-950 text-2xl font-semibold">Planos e Preços </a>
+            <div class="w-[159px] h-[45px] bg-green-950 rounded-[20px]">
+                <a class="text-white text-xl  justify-centerfont-semibold">Fale Connosco</a>
+            </div>
+            <div class="w-[259px] h-[45px] bg-red-600 rounded-[20px]">
+                <a class="text-white text-xl font-bold">Emergência</a>
+            </div>
+             
         </section>
     </nav>
 </div>
+
+<script>
+    //Codigo para a interactividade do menu
+
+$("#menu").show();
+$("#ocultar-menu").hide();
+//$("nav").hide();
+
+
+$("#menu").click(function(){
+ $('#header').hide();
+$("#ocultar-menu").toggle();
+
+ $("nav").animate({
+       marginTop:'0'
+    }, 1000, function() {
+        $("nav").show(1000);
+    });
+});
+$("#ocultar-menu").click(function(){
+    $('#header').show();
+$("#ocultar-menu").toggle();
+
+$("nav").hide();
+});
+</script>
