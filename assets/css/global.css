@@ -671,44 +671,16 @@ video {
   clear: none;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .ml-10 {
   margin-left: 2.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.ml-9 {
-  margin-left: 2.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -838,12 +810,12 @@ video {
   height: 172px;
 }
 
-.h-\[214px\] {
-  height: 214px;
+.h-\[200px\] {
+  height: 200px;
 }
 
-.h-\[228px\] {
-  height: 228px;
+.h-\[214px\] {
+  height: 214px;
 }
 
 .h-\[22px\] {
@@ -862,6 +834,10 @@ video {
   height: 29.24px;
 }
 
+.h-\[291px\] {
+  height: 291px;
+}
+
 .h-\[29px\] {
   height: 29px;
 }
@@ -874,12 +850,12 @@ video {
   height: 31px;
 }
 
-.h-\[34px\] {
-  height: 34px;
+.h-\[332px\] {
+  height: 332px;
 }
 
-.h-\[371px\] {
-  height: 371px;
+.h-\[34px\] {
+  height: 34px;
 }
 
 .h-\[39px\] {
@@ -890,12 +866,8 @@ video {
   height: 434px;
 }
 
-.h-\[59px\] {
-  height: 59px;
-}
-
-.h-\[632px\] {
-  height: 632px;
+.h-\[49px\] {
+  height: 49px;
 }
 
 .h-\[72px\] {
@@ -910,40 +882,8 @@ video {
   height: 91px;
 }
 
-.h-\[49px\] {
-  height: 49px;
-}
-
-.h-\[532px\] {
-  height: 532px;
-}
-
-.h-\[432px\] {
-  height: 432px;
-}
-
-.h-\[271px\] {
-  height: 271px;
-}
-
-.h-\[281px\] {
-  height: 281px;
-}
-
-.h-\[128px\] {
-  height: 128px;
-}
-
-.h-\[291px\] {
-  height: 291px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[332px\] {
-  height: 332px;
+.h-\[739px\] {
+  height: 739px;
 }
 
 .w-8 {
@@ -970,12 +910,12 @@ video {
   width: 177px;
 }
 
-.w-\[213px\] {
-  width: 213px;
+.w-\[187px\] {
+  width: 187px;
 }
 
-.w-\[216px\] {
-  width: 216px;
+.w-\[213px\] {
+  width: 213px;
 }
 
 .w-\[227\.04px\] {
@@ -1014,8 +954,8 @@ video {
   width: 390px;
 }
 
-.w-\[59px\] {
-  width: 59px;
+.w-\[49px\] {
+  width: 49px;
 }
 
 .w-\[92px\] {
@@ -1026,12 +966,8 @@ video {
   width: 100vw;
 }
 
-.w-\[49px\] {
-  width: 49px;
-}
-
-.w-\[187px\] {
-  width: 187px;
+.w-\[356px\] {
+  width: 356px;
 }
 
 .flex-shrink {
