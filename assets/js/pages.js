@@ -4,11 +4,11 @@ $("footer").load("../components/footer.html");
 
 $("#menu").show();
 $("#ocultar-menu").hide();
-$("nav").hide();
+$("nav").show();
 
 $("#menu").click(function(){
     $('header').hide();
-$("menu").toggle();
+$("#mostar-menu").toggle();
 $("#ocultar-menu").toggle();
 
  $("nav").animate({
