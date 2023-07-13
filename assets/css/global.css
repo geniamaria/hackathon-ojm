@@ -874,16 +874,16 @@ video {
   height: 72px;
 }
 
+.h-\[739px\] {
+  height: 739px;
+}
+
 .h-\[85px\] {
   height: 85px;
 }
 
 .h-\[91px\] {
   height: 91px;
-}
-
-.h-\[739px\] {
-  height: 739px;
 }
 
 .w-8 {
@@ -946,6 +946,10 @@ video {
   width: 342px;
 }
 
+.w-\[356px\] {
+  width: 356px;
+}
+
 .w-\[357px\] {
   width: 357px;
 }
@@ -964,10 +968,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[356px\] {
-  width: 356px;
 }
 
 .flex-shrink {
